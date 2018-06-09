@@ -1,0 +1,6 @@
+framework module Pods_NoscoUITests {
+  umbrella header "Pods-NoscoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,54 @@
+PODS:
+  - Agrume (5.0.3):
+    - SwiftyGif
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - PryntTrimmerView (2.0.1)
+  - SteviaLayout (4.2.0)
+  - SwiftyGif (4.1.0)
+  - SwipeableTabBarController (1.0.4)
+  - TransitionButton (0.4.0)
+  - YPImagePicker (3.0.0):
+    - PryntTrimmerView (~> 2.0)
+    - SteviaLayout (~> 4.2.0)
+
+DEPENDENCIES:
+  - Agrume
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - SwipeableTabBarController
+  - TransitionButton
+  - YPImagePicker
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Agrume
+    - PryntTrimmerView
+    - SteviaLayout
+    - SwiftyGif
+    - SwipeableTabBarController
+    - TransitionButton
+    - YPImagePicker
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  Agrume: ac7753b6b502a53f6ecc49313061df988d4728d0
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  PryntTrimmerView: 4260ae497a2f3e1bbfc0b71247eb74ab92bf0490
+  SteviaLayout: 0d2112caea45707695e8c718262c8ea3dd37ef17
+  SwiftyGif: d36c6dfb52e2ca1e48fe349d225f50ec4123ec85
+  SwipeableTabBarController: a52688ad47614ba98611df30a788202db90620fe
+  TransitionButton: d271030914c84a00b54b4d983446944d2875e7ba
+  YPImagePicker: 817ae068f084a6f132312e66255347d1ce82782d
+
+PODFILE CHECKSUM: 0fa7237d48c49cac1590cff3d84d4e89a839011e
+
+COCOAPODS: 1.5.3

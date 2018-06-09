@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B405B86ACEFB055A4AC6DBB /* Pods_Nosco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F2EF169139EDE581F1DA59 /* Pods_Nosco.framework */; };
+		AC2D085520CC5B280046025E /* dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC2D085420CC5B280046025E /* dog.jpeg */; };
+		AC2D085720CC5F8E0046025E /* icons8-house-60.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2D085620CC5F8E0046025E /* icons8-house-60.png */; };
+		AC2D085920CC5FBD0046025E /* icons8-house-30.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2D085820CC5FBC0046025E /* icons8-house-30.png */; };
+		AC2D085B20CC5FF50046025E /* icons8-home-30.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2D085A20CC5FF50046025E /* icons8-home-30.png */; };
+		AC2D085D20CC60340046025E /* icons8-house-30-2.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2D085C20CC60330046025E /* icons8-house-30-2.png */; };
+		AC2D085F20CC60870046025E /* icons8-screenshot-30.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2D085E20CC60870046025E /* icons8-screenshot-30.png */; };
 		AC59E0C020BC4B0A0038E038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59E0BF20BC4B0A0038E038 /* AppDelegate.swift */; };
 		AC59E0C220BC4B0A0038E038 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59E0C120BC4B0A0038E038 /* FirstViewController.swift */; };
 		AC59E0C420BC4B0A0038E038 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59E0C320BC4B0A0038E038 /* SecondViewController.swift */; };
@@ -15,6 +22,25 @@
 		AC59E0CC20BC4B0C0038E038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC59E0CA20BC4B0C0038E038 /* LaunchScreen.storyboard */; };
 		AC59E0D720BC4B0D0038E038 /* NoscoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59E0D620BC4B0D0038E038 /* NoscoTests.swift */; };
 		AC59E0E220BC4B0D0038E038 /* NoscoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59E0E120BC4B0D0038E038 /* NoscoUITests.swift */; };
+		AC6A4DC420BD3C5800D48D8F /* CaptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6A4DC320BD3C5800D48D8F /* CaptionsViewController.swift */; };
+		AC8EDE7720C9564700702096 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EDE7420C9564700702096 /* PriorityQueue.swift */; };
+		AC8EDE7820C9564700702096 /* ShowAndTell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EDE7520C9564700702096 /* ShowAndTell.swift */; };
+		AC8EDE8420C9565300702096 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EDE7A20C9565300702096 /* Math.swift */; };
+		AC8EDE8520C9565300702096 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EDE7B20C9565300702096 /* UIImage+CVPixelBuffer.swift */; };
+		AC8EDE8620C9565300702096 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EDE7C20C9565300702096 /* Array.swift */; };
+		AC8EDE8720C9565300702096 /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EDE7D20C9565300702096 /* Predictions.swift */; };
+		AC8EDE8820C9565300702096 /* MultiArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EDE7E20C9565300702096 /* MultiArray.swift */; };
+		AC8EDE8920C9565300702096 /* CVPixelBuffer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EDE7F20C9565300702096 /* CVPixelBuffer+Helpers.swift */; };
+		AC8EDE8A20C9565300702096 /* NonMaxSuppression.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EDE8020C9565300702096 /* NonMaxSuppression.swift */; };
+		AC8EDE8B20C9565300702096 /* keras_inception_lstm_good.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AC8EDE8120C9565300702096 /* keras_inception_lstm_good.mlmodel */; };
+		AC8EDE8C20C9565300702096 /* MLMultiArray+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EDE8220C9565300702096 /* MLMultiArray+Image.swift */; };
+		AC8EDE8D20C9565300702096 /* keras_inception_step_good_without_label.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AC8EDE8320C9565300702096 /* keras_inception_step_good_without_label.mlmodel */; };
+		AC9A9A6920C8789D0095E35C /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AC9A9A6820C8789D0095E35C /* GoogLeNetPlaces.mlmodel */; };
+		AC9A9A6B20C879F80095E35C /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AC9A9A6A20C879F70095E35C /* MobileNet.mlmodel */; };
+		AC9A9A8F20C88C5A0095E35C /* word_counts.txt in Resources */ = {isa = PBXBuildFile; fileRef = AC9A9A8E20C88C5A0095E35C /* word_counts.txt */; };
+		ACB6A36220CB1469005A2D1B /* MIBlurPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB6A36120CB1468005A2D1B /* MIBlurPopup.swift */; };
+		C26D2FAA41D4396135035A85 /* Pods_NoscoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5B0D552F36253081165BA7 /* Pods_NoscoUITests.framework */; };
+		FC7BD4F6BD0399FB257B5087 /* Pods_NoscoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45389C1CB858E0C6B08FD11D /* Pods_NoscoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +61,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06F2EF169139EDE581F1DA59 /* Pods_Nosco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nosco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		157EE3B3B513C36103C51014 /* Pods-NoscoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoscoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoscoUITests/Pods-NoscoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3624ACDD6C1307A259DED138 /* Pods-Nosco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nosco.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nosco/Pods-Nosco.release.xcconfig"; sourceTree = "<group>"; };
+		45389C1CB858E0C6B08FD11D /* Pods_NoscoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoscoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D68F340DA07C1842864C08 /* Pods-NoscoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoscoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoscoUITests/Pods-NoscoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5CFFA39DE1147567E8E4DCF9 /* Pods-Nosco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nosco.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nosco/Pods-Nosco.debug.xcconfig"; sourceTree = "<group>"; };
+		7F5B0D552F36253081165BA7 /* Pods_NoscoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoscoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB42BA981B76522E7C555F36 /* Pods-NoscoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoscoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoscoTests/Pods-NoscoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC2D085420CC5B280046025E /* dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpeg; sourceTree = "<group>"; };
+		AC2D085620CC5F8E0046025E /* icons8-house-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-house-60.png"; sourceTree = "<group>"; };
+		AC2D085820CC5FBC0046025E /* icons8-house-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-house-30.png"; sourceTree = "<group>"; };
+		AC2D085A20CC5FF50046025E /* icons8-home-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-home-30.png"; sourceTree = "<group>"; };
+		AC2D085C20CC60330046025E /* icons8-house-30-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-house-30-2.png"; sourceTree = "<group>"; };
+		AC2D085E20CC60870046025E /* icons8-screenshot-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-screenshot-30.png"; sourceTree = "<group>"; };
 		AC59E0BC20BC4B0A0038E038 /* Nosco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nosco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC59E0BF20BC4B0A0038E038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC59E0C120BC4B0A0038E038 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +89,24 @@
 		AC59E0DD20BC4B0D0038E038 /* NoscoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoscoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC59E0E120BC4B0D0038E038 /* NoscoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoscoUITests.swift; sourceTree = "<group>"; };
 		AC59E0E320BC4B0D0038E038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6A4DC320BD3C5800D48D8F /* CaptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionsViewController.swift; sourceTree = "<group>"; };
+		AC8EDE7420C9564700702096 /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		AC8EDE7520C9564700702096 /* ShowAndTell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAndTell.swift; sourceTree = "<group>"; };
+		AC8EDE7A20C9565300702096 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		AC8EDE7B20C9565300702096 /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		AC8EDE7C20C9565300702096 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		AC8EDE7D20C9565300702096 /* Predictions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predictions.swift; sourceTree = "<group>"; };
+		AC8EDE7E20C9565300702096 /* MultiArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiArray.swift; sourceTree = "<group>"; };
+		AC8EDE7F20C9565300702096 /* CVPixelBuffer+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Helpers.swift"; sourceTree = "<group>"; };
+		AC8EDE8020C9565300702096 /* NonMaxSuppression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonMaxSuppression.swift; sourceTree = "<group>"; };
+		AC8EDE8120C9565300702096 /* keras_inception_lstm_good.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = keras_inception_lstm_good.mlmodel; sourceTree = "<group>"; };
+		AC8EDE8220C9565300702096 /* MLMultiArray+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Image.swift"; sourceTree = "<group>"; };
+		AC8EDE8320C9565300702096 /* keras_inception_step_good_without_label.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = keras_inception_step_good_without_label.mlmodel; sourceTree = "<group>"; };
+		AC9A9A6820C8789D0095E35C /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		AC9A9A6A20C879F70095E35C /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		AC9A9A8E20C88C5A0095E35C /* word_counts.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = word_counts.txt; sourceTree = "<group>"; };
+		ACB6A36120CB1468005A2D1B /* MIBlurPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIBlurPopup.swift; sourceTree = "<group>"; };
+		E7DF7A84511CC5FD16AF9B86 /* Pods-NoscoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoscoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoscoTests/Pods-NoscoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B405B86ACEFB055A4AC6DBB /* Pods_Nosco.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7BD4F6BD0399FB257B5087 /* Pods_NoscoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +130,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26D2FAA41D4396135035A85 /* Pods_NoscoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D0F4290F523E88B9DB35B39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CFFA39DE1147567E8E4DCF9 /* Pods-Nosco.debug.xcconfig */,
+				3624ACDD6C1307A259DED138 /* Pods-Nosco.release.xcconfig */,
+				E7DF7A84511CC5FD16AF9B86 /* Pods-NoscoTests.debug.xcconfig */,
+				AB42BA981B76522E7C555F36 /* Pods-NoscoTests.release.xcconfig */,
+				157EE3B3B513C36103C51014 /* Pods-NoscoUITests.debug.xcconfig */,
+				58D68F340DA07C1842864C08 /* Pods-NoscoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AC59E0B320BC4B0A0038E038 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +157,8 @@
 				AC59E0D520BC4B0D0038E038 /* NoscoTests */,
 				AC59E0E020BC4B0D0038E038 /* NoscoUITests */,
 				AC59E0BD20BC4B0A0038E038 /* Products */,
+				3D0F4290F523E88B9DB35B39 /* Pods */,
+				AFE229813AF6B219552DAC15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +175,25 @@
 		AC59E0BE20BC4B0A0038E038 /* Nosco */ = {
 			isa = PBXGroup;
 			children = (
+				AC8EDE7220C9564700702096 /* ShowAndTell */,
+				AC9A9A6A20C879F70095E35C /* MobileNet.mlmodel */,
+				AC9A9A6820C8789D0095E35C /* GoogLeNetPlaces.mlmodel */,
 				AC59E0BF20BC4B0A0038E038 /* AppDelegate.swift */,
 				AC59E0C120BC4B0A0038E038 /* FirstViewController.swift */,
 				AC59E0C320BC4B0A0038E038 /* SecondViewController.swift */,
 				AC59E0C520BC4B0A0038E038 /* Main.storyboard */,
+				AC6A4DC320BD3C5800D48D8F /* CaptionsViewController.swift */,
+				ACB6A36120CB1468005A2D1B /* MIBlurPopup.swift */,
 				AC59E0C820BC4B0C0038E038 /* Assets.xcassets */,
+				AC2D085E20CC60870046025E /* icons8-screenshot-30.png */,
+				AC2D085C20CC60330046025E /* icons8-house-30-2.png */,
+				AC2D085620CC5F8E0046025E /* icons8-house-60.png */,
+				AC2D085820CC5FBC0046025E /* icons8-house-30.png */,
+				AC2D085A20CC5FF50046025E /* icons8-home-30.png */,
 				AC59E0CA20BC4B0C0038E038 /* LaunchScreen.storyboard */,
 				AC59E0CD20BC4B0D0038E038 /* Info.plist */,
+				AC2D085420CC5B280046025E /* dog.jpeg */,
+				AC9A9A8E20C88C5A0095E35C /* word_counts.txt */,
 			);
 			path = Nosco;
 			sourceTree = "<group>";
@@ -128,6 +216,44 @@
 			path = NoscoUITests;
 			sourceTree = "<group>";
 		};
+		AC8EDE7220C9564700702096 /* ShowAndTell */ = {
+			isa = PBXGroup;
+			children = (
+				AC8EDE7920C9565300702096 /* CoreMLHelpers */,
+				AC8EDE7420C9564700702096 /* PriorityQueue.swift */,
+				AC8EDE7520C9564700702096 /* ShowAndTell.swift */,
+			);
+			name = ShowAndTell;
+			path = "../../../Downloads/ShowAndTell-master-3/ShowAndTell/ShowAndTell";
+			sourceTree = "<group>";
+		};
+		AC8EDE7920C9565300702096 /* CoreMLHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				AC8EDE7A20C9565300702096 /* Math.swift */,
+				AC8EDE7B20C9565300702096 /* UIImage+CVPixelBuffer.swift */,
+				AC8EDE7C20C9565300702096 /* Array.swift */,
+				AC8EDE7D20C9565300702096 /* Predictions.swift */,
+				AC8EDE7E20C9565300702096 /* MultiArray.swift */,
+				AC8EDE7F20C9565300702096 /* CVPixelBuffer+Helpers.swift */,
+				AC8EDE8020C9565300702096 /* NonMaxSuppression.swift */,
+				AC8EDE8120C9565300702096 /* keras_inception_lstm_good.mlmodel */,
+				AC8EDE8220C9565300702096 /* MLMultiArray+Image.swift */,
+				AC8EDE8320C9565300702096 /* keras_inception_step_good_without_label.mlmodel */,
+			);
+			path = CoreMLHelpers;
+			sourceTree = "<group>";
+		};
+		AFE229813AF6B219552DAC15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06F2EF169139EDE581F1DA59 /* Pods_Nosco.framework */,
+				45389C1CB858E0C6B08FD11D /* Pods_NoscoTests.framework */,
+				7F5B0D552F36253081165BA7 /* Pods_NoscoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC59E0E620BC4B0D0038E038 /* Build configuration list for PBXNativeTarget "Nosco" */;
 			buildPhases = (
+				0B18D806E4D0FDA13EE471AE /* [CP] Check Pods Manifest.lock */,
 				AC59E0B820BC4B0A0038E038 /* Sources */,
 				AC59E0B920BC4B0A0038E038 /* Frameworks */,
 				AC59E0BA20BC4B0A0038E038 /* Resources */,
+				4655D7C4973ABD88B2049E99 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC59E0E920BC4B0D0038E038 /* Build configuration list for PBXNativeTarget "NoscoTests" */;
 			buildPhases = (
+				42D465DD0553E5326FACD261 /* [CP] Check Pods Manifest.lock */,
 				AC59E0CE20BC4B0D0038E038 /* Sources */,
 				AC59E0CF20BC4B0D0038E038 /* Frameworks */,
 				AC59E0D020BC4B0D0038E038 /* Resources */,
@@ -170,6 +299,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC59E0EC20BC4B0D0038E038 /* Build configuration list for PBXNativeTarget "NoscoUITests" */;
 			buildPhases = (
+				F620EB28CD1222135CEA3FBD /* [CP] Check Pods Manifest.lock */,
 				AC59E0D920BC4B0D0038E038 /* Sources */,
 				AC59E0DA20BC4B0D0038E038 /* Frameworks */,
 				AC59E0DB20BC4B0D0038E038 /* Resources */,
@@ -232,9 +362,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2D085520CC5B280046025E /* dog.jpeg in Resources */,
 				AC59E0CC20BC4B0C0038E038 /* LaunchScreen.storyboard in Resources */,
 				AC59E0C920BC4B0C0038E038 /* Assets.xcassets in Resources */,
 				AC59E0C720BC4B0A0038E038 /* Main.storyboard in Resources */,
+				AC2D085720CC5F8E0046025E /* icons8-house-60.png in Resources */,
+				AC2D085920CC5FBD0046025E /* icons8-house-30.png in Resources */,
+				AC2D085F20CC60870046025E /* icons8-screenshot-30.png in Resources */,
+				AC2D085D20CC60340046025E /* icons8-house-30-2.png in Resources */,
+				AC9A9A8F20C88C5A0095E35C /* word_counts.txt in Resources */,
+				AC2D085B20CC5FF50046025E /* icons8-home-30.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +391,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B18D806E4D0FDA13EE471AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nosco-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42D465DD0553E5326FACD261 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NoscoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4655D7C4973ABD88B2049E99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Nosco/Pods-Nosco-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Agrume/Agrume.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/PryntTrimmerView/PryntTrimmerView.framework",
+				"${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeableTabBarController/SwipeableTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework",
+				"${BUILT_PRODUCTS_DIR}/YPImagePicker/YPImagePicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Agrume.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PryntTrimmerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stevia.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeableTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransitionButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YPImagePicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nosco/Pods-Nosco-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F620EB28CD1222135CEA3FBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NoscoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC59E0B820BC4B0A0038E038 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9A9A6B20C879F80095E35C /* MobileNet.mlmodel in Sources */,
+				AC8EDE8A20C9565300702096 /* NonMaxSuppression.swift in Sources */,
+				AC8EDE8B20C9565300702096 /* keras_inception_lstm_good.mlmodel in Sources */,
+				ACB6A36220CB1469005A2D1B /* MIBlurPopup.swift in Sources */,
+				AC8EDE8C20C9565300702096 /* MLMultiArray+Image.swift in Sources */,
+				AC8EDE7820C9564700702096 /* ShowAndTell.swift in Sources */,
+				AC8EDE8720C9565300702096 /* Predictions.swift in Sources */,
+				AC8EDE8D20C9565300702096 /* keras_inception_step_good_without_label.mlmodel in Sources */,
+				AC8EDE8420C9565300702096 /* Math.swift in Sources */,
 				AC59E0C420BC4B0A0038E038 /* SecondViewController.swift in Sources */,
+				AC8EDE8820C9565300702096 /* MultiArray.swift in Sources */,
+				AC6A4DC420BD3C5800D48D8F /* CaptionsViewController.swift in Sources */,
+				AC8EDE8920C9565300702096 /* CVPixelBuffer+Helpers.swift in Sources */,
+				AC8EDE8520C9565300702096 /* UIImage+CVPixelBuffer.swift in Sources */,
+				AC8EDE7720C9564700702096 /* PriorityQueue.swift in Sources */,
+				AC8EDE8620C9565300702096 /* Array.swift in Sources */,
 				AC59E0C020BC4B0A0038E038 /* AppDelegate.swift in Sources */,
 				AC59E0C220BC4B0A0038E038 /* FirstViewController.swift in Sources */,
+				AC9A9A6920C8789D0095E35C /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,8 +674,10 @@
 		};
 		AC59E0E720BC4B0D0038E038 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CFFA39DE1147567E8E4DCF9 /* Pods-Nosco.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NG9N8THD45;
 				INFOPLIST_FILE = Nosco/Info.plist;
@@ -443,15 +687,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.akshatjagga.Nosco;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AC59E0E820BC4B0D0038E038 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3624ACDD6C1307A259DED138 /* Pods-Nosco.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NG9N8THD45;
 				INFOPLIST_FILE = Nosco/Info.plist;
@@ -461,13 +709,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.akshatjagga.Nosco;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		AC59E0EA20BC4B0D0038E038 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7DF7A84511CC5FD16AF9B86 /* Pods-NoscoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +739,7 @@
 		};
 		AC59E0EB20BC4B0D0038E038 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB42BA981B76522E7C555F36 /* Pods-NoscoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +761,7 @@
 		};
 		AC59E0ED20BC4B0D0038E038 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 157EE3B3B513C36103C51014 /* Pods-NoscoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +782,7 @@
 		};
 		AC59E0EE20BC4B0D0038E038 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58D68F340DA07C1842864C08 /* Pods-NoscoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,14 +7,86 @@
 //
 
 import UIKit
-
+import YPImagePicker
+var imagetransfer : UIImage = UIImage()
+var statusofCameraImage = 0
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UITabBarControllerDelegate {
+    
+    var selectedItems = [YPMediaItem]()
 
     var window: UIWindow?
 
+    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+        
+        if viewController is SecondViewController {
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+            var config = YPImagePickerConfiguration()
+            config.libraryMediaType = .photo
+            config.onlySquareFromLibrary = false
+            config.onlySquareImagesFromCamera = true
+            // config.targetImageSize = .original
+            config.libraryTargetImageSize = .original
+            config.usesFrontCamera = false
+            config.showsFilters = true
+            config.filters = [YPFilterDescriptor(name: "Original", filterName: ""),
+                              YPFilterDescriptor(name: "Mono", filterName: "CIPhotoEffectMono"),YPFilterDescriptor(name: "Blue Lagoon", filterName: "CIPhotoEffectProcess") , YPFilterDescriptor(name: "Chrome", filterName: "CIPhotoEffectChrome"),YPFilterDescriptor(name: "Noir", filterName: "CIPhotoEffectNoir"),YPFilterDescriptor(name: "Touché", filterName: "CIPhotoEffectTransfer"),YPFilterDescriptor(name: "Tonal", filterName: "CIPhotoEffectTonal")]
+            config.shouldSaveNewPicturesToAlbum = true
+            //  config.videoCompression = AVAssetExportPresetHighestQuality
+            
+            config.albumName = "Nosco"
+            config.screens = [.library ,.photo]
+            config.startOnScreen = .photo
+            //        config.videoRecordingTimeLimit = 10
+            //        config.videoFromLibraryTimeLimit = 20
+            config.wordings.libraryTitle = "Camera Roll"
+            config.hidesStatusBar = false
+            //   config.overlayView = myOverlayView
+            config.maxNumberOfItems = 1
+            
+            
+            
+            let picker = YPImagePicker(configuration: config)
+            
+            YPImagePickerConfiguration.shared = config
+            
+            picker.didFinishPicking { items, cancelled in
+                
+
+                if cancelled {
+
+                cancelpickingimage = 1
+                    statusofCameraImage = 0
+                }
+                
+                else {
+                    cancelpickingimage = 0
+                    statusofCameraImage = 1
+                    self.selectedItems = items
+                    imagetransfer = (items.singlePhoto?.image)!
+
+                }
+                
+                    
+                
+                picker.dismiss(animated: true, completion: nil)
+            }
+            
+             tabBarController.present(picker, animated: true)
+            
+       return false
+            
+            
+        }
+    return true
+            
+    }
+
+    
+        
+
+
+  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
