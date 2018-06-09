@@ -33,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UITabBarControllerDelegat
                               YPFilterDescriptor(name: "Mono", filterName: "CIPhotoEffectMono"),YPFilterDescriptor(name: "Blue Lagoon", filterName: "CIPhotoEffectProcess") , YPFilterDescriptor(name: "Chrome", filterName: "CIPhotoEffectChrome"),YPFilterDescriptor(name: "Noir", filterName: "CIPhotoEffectNoir"),YPFilterDescriptor(name: "Touché", filterName: "CIPhotoEffectTransfer"),YPFilterDescriptor(name: "Tonal", filterName: "CIPhotoEffectTonal")]
             config.shouldSaveNewPicturesToAlbum = true
             //  config.videoCompression = AVAssetExportPresetHighestQuality
-            
+            print("hello")
             config.albumName = "Nosco"
             config.screens = [.library ,.photo]
             config.startOnScreen = .photo
