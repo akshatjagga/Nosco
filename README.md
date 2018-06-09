@@ -1,8 +1,7 @@
 # Nosco
-An image  app using CoreML
+A neural image contextualised caption generator based on CoreML
 
 ## Introduction
-
 Nosco is written in Swift 4 and uses CoreML to implement the image to text model described in -
 
 "Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge."
